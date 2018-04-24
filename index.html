@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kreate - Home</title>
+
+    <!-- external CSS link -->
+    <!-- font-family: 'Montserrat', sans-serif; -->
+    <!-- font-family: 'Cormorant Garamond', serif; -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300i,400,400i,500,500i,600i" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+</head>
+
+<body>
+    <header>
+        <section class="header-top">
+            <section class="header-padding">
+                <a href="index.html">
+                    <img class="logo-header" src="images/logo_kreate.png">
+                </a>
+                <nav>
+                    <a href="about.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </section>
+        </section>
+    </header>
+
+    <div class="slide-container">
+        <div class="welcome-box">
+            <h1>Welcome...</h1>
+            <h3>KREATE is an experienced and highly regarded studio of interior designers who offer a comprehensive, personalised
+                and bespoke design service, involving clients in the creative process. We are committed to responding to
+                our clients’ brief and lifestyle.</h3>
+            <a href="about.html">Read more</a>
+        </div>
+        <div class="slider">
+            <div class="slides slide-one"></div>
+            <div class="slides slide-two"></div>
+            <div class="slides slide-three"></div>
+        </div>
+    </div>
+
+
+    <section id="blockquote">
+        <blockquote>
+            “The most beautiful rooms are those that retain a feeling of not being quite finished. There is still a place for a painting
+            on that wall, still a chair to be found that will suit that corner… make the room stays alive, young and growing.”
+        </blockquote>
+        <h2> &nbsp - Michael Taylor</h2>
+    </section>
+
+    <div id="company-profile">
+        <div id="inside-box">
+            <article class="profile simplicity">
+                <h1>SIMPLICITY</h1>
+                <h2>Simplicity is the ultimate sophistication.
+                    <br> Make it simple, but significant</h2>
+            </article>
+            <article class="profile classic">
+                <h1>CLASSIC</h1>
+                <h2>New Classical Interiors embrace Classical design which is a language of details.</h2>
+            </article>
+            <article class="profile modern">
+                <h1>MODERN</h1>
+                <h2>Modern design is all about clean-lines and
+                    <br> focuses on function before form.</h2>
+            </article>
+        </div>
+    </div>
+
+    <div id="social-media">
+        <div class="flex-container">
+            <a id="facebook" href="#"></a>
+            <a id="insta" href="#"></a>
+            <a id="twitter" href="#"></a>
+            <a id="pinterest" href="#"></a>
+        </div>
+    </div>
+
+    <footer>
+        <img id="logo-footer" src="images/logo_kreate3.png">
+        <h4>Kreate. Copyright 2018.</h4>
+    </footer>
+
+    <script type="text/javascript" src="https://www.irmau.com/site/content/js/vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.irmau.com/site/content/js/foundation.min.js"></script>
+    
+    <script type="text/javascript" src="https://www.irmau.com/site/content/js/slick/slick.min.js"></script>
+    <link rel="stylesheet" href="js/index.js">
+    <link rel="stylesheet" href="js/slick.js">
+
+    <script>
+    $(document).ready(function(){
+        $('.slider').slick({
+          autoplay:true,
+          autoplaySpeed: 3000,
+        speed: 2000,
+        arrows: false
+        });
+      });
+    </script>
+</body>
+
+</html>
